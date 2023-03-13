@@ -1,0 +1,11 @@
+ثبت نام کاربر
+___________
+INSERT INTO `user`(`name`, `lastname`, `username`, `password`) VALUES ('nima','shayegan','lnimal','nima1382')
+INSERT INTO `user`(`name`, `lastname`, `username`, `password`) VALUES ('sina','ahmadi','lsinal','sina1382')
+INSERT INTO `user`(`name`, `lastname`, `username`, `password`) VALUES ('ali','rahmani','lalil','ali1382')
+INSERT INTO `user`(`name`, `lastname`, `username`, `password`) VALUES ('reza','mohammadi','lrezal','reza1382')
+
+حذف کاربر
+___________
+DELETE FROM `user` WHERE username = lnimal;
+DELETE FROM `user` WHERE id = 2;

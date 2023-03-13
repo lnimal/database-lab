@@ -1,0 +1,14 @@
+درج پیام جدید توسط کاربر
+________________
+INSERT INTO `contacts`(`name`, `lastname`, `phone_number`, `message`, `email`) VALUES ('nima','shayegan','09055368972','nice store','dhnima0@gmail.com')
+
+INSERT INTO `contacts`(`name`, `lastname`, `phone_number`, `message`, `email`) VALUES ('sina','mohammadi','09055366895','good store','dhsina0@gmail.com')
+
+INSERT INTO `contacts`(`name`, `lastname`, `phone_number`, `message`, `email`) VALUES ('ali','rahmani','09055365897','so good store','dhali0@gmail.com')
+
+INSERT INTO `contacts`(`name`, `lastname`, `phone_number`, `message`, `email`) VALUES ('reza','ahmadi','09055369715','bad store','dhreza0@gmail.com')
+
+حذف پیام
+_________________
+DELETE FROM `contacts` WHERE message='bad store';
+DELETE FROM `contacts` WHERE message='good store';
